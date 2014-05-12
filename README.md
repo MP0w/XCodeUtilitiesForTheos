@@ -8,5 +8,5 @@ I will put here some utilities that help me using Xcode as a perfect IDE for The
 
 1. .xm and .xmi files template for Xcode are in the "Theos Files Template" folder and must be moved to ~/Library/Developer/Xcode/Templates/File\ Templates/ 
 2. mpowMake is a simple script that you can use with the target (originally made for OSX) "external build system" , why? Xcode pass $(ACTION) to the script, where $(ACTION) is clean in case you are cleaning the project and anything if you build, to not edit the arguments manually to pass to make manually thhe script check if $1 exist if not put my arguments for the build (package install)
-![](./externalBuildSystem)
+![](/externalBuildSystem)
 3. .... 
