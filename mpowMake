@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ $1 ]; then
+        echo doing : make $1
+        make $1
+else
+	echo doing : make package install 
+	make package install
+fi
+
+echo done
+
